@@ -30,9 +30,9 @@ PRODUCT_PACKAGES += \
 ifneq ($(WITH_CM_CHARGER),false)
 PRODUCT_PACKAGES += \
     charger_res_images \
-    cm_charger_res_images \
+    lineage_charger_res_images \
     font_log.png \
-    libhealthd.cm
+    libhealthd.lineage
 endif
 
 # NTFS-3G support
