@@ -66,6 +66,14 @@ PRODUCT_COPY_FILES += \
     vendor/carbon/prebuilt/etc/init.d/00banner:system/etc/init.d/00banner \
     vendor/carbon/prebuilt/bin/sysinit:system/bin/sysinit \
     vendor/carbon/prebuilt/etc/init.carbon.rc:root/init.carbon.rc
+    
+    
+# Charging sounds
+PRODUCT_COPY_FILES += \
+    vendor/carbon/sounds/effects/BatteryPlugged.ogg:system/media/audio/ui/BatteryPlugged.ogg \
+    vendor/carbon/sounds/effects/BatteryPlugged_48k.ogg:system/media/audio/ui/BatteryPlugged_48k.ogg \
+	vendor/carbon/sounds/effects/GoodBattery.ogg:system/media/audio/ui/GoodBattery.ogg
+	
 
 # Enable SIP and VoIP on all targets
 PRODUCT_COPY_FILES += \
