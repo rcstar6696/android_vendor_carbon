@@ -82,6 +82,9 @@ PRODUCT_COPY_FILES += \
 # Additional packages
 -include vendor/carbon/config/packages.mk
 
+# Theme vendor extension
+-include vendor/carbon/themes/Android.mk
+
 # Versioning
 -include vendor/carbon/config/version.mk
 
@@ -91,8 +94,6 @@ PRODUCT_COPY_FILES += \
 # Add our overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/carbon/overlay/common
 
-# Add our themes
--include vendor/carbon/configs/common_theme_packages.mk
 
 # Squisher Location
 SQUISHER_SCRIPT := vendor/carbon/tools/squisher
