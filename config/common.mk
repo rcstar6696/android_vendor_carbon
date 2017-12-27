@@ -91,6 +91,9 @@ PRODUCT_COPY_FILES += \
 # Add our overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/carbon/overlay/common
 
+# Add our themes
+-include vendor/carbon/configs/common_theme_packages.mk
+
 # Squisher Location
 SQUISHER_SCRIPT := vendor/carbon/tools/squisher
 
